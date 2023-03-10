@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- RemixIcons -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <!-- Favicon -->
+    <link
+      rel="shortcut icon"
+      href="assets/img/favicon.png"
+      type="image/x-icon"
+    />
+    <title>Plantex Shop</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">
+          <i class="ri-leaf-line nav__logo-icon"></i> Plantex Shop
+        </a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">Sobre</a>
+            </li>
+            <li class="nav__item">
+              <a href="#products" class="nav__link">Produtos</a>
+            </li>
+            <li class="nav__item">
+              <a href="#faqs" class="nav__link">FAQs</a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">Contato</a>
+            </li>
+          </ul>
+
+          <div class="nav__close" id="nav-close">
+            <i class="ri-close-line"></i>
+          </div>
+        </div>
+
+        <div class="nav__btns">
+          <!-- Botão para escolher entre o tema escuro e claro -->
+          <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="ri-menu-line"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="main">
+      <!-- Home -->
+      <section class="home" id="home">
+        <div class="home__container container grid">
+          <img src="assets/img/home.png" alt="" class="home__img" />
+
+          <div class="home__data">
+            <h1 class="home__title">
+              As plantas vão tornar <br />
+              sua vida melhor
+            </h1>
+            <p class="home__description">
+              Crie designs de plantas incríveis para seus escritórios ou
+              apastamentos. Adicione frescura às suas novas ideias.
+            </p>
+            <a href="#about" class="button button--flex">
+              Explore <i class="ri-arrow-right-down-line button__icon"></i>
+            </a>
+          </div>
+
+          <div class="home__social">
+            <span class="home__social-follow">Me siga</span>
+
+            <div class="home__social-links">
+              <a
+                href="https://www.instagram.com/jcsnjdev"
+                target="_blank"
+                class="home__social-link"
+              >
+                <i class="ri-instagram-line"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- About -->
+      <section class="about section container" id="about">
+        <div class="about__container grid">
+          <img src="assets/img/about.png" alt="" class="about__img" />
+
+          <div class="about__data">
+            <h2 class="section__title about__title">
+              Quem realmente somos & <br />
+              Porque escolher nós
+            </h2>
+
+            <p class="about__description">
+              Temos mais de 4000 avaliações imparciais e nossos clientes confiam
+              em nosso processo de fábrica e serviço de entrega sempre
+            </p>
+
+            <div class="about__details">
+              <p class="about__details-description">
+                <i class="ri-checkbox-fill about__details-icon"></i>
+                Sempre entregamos no prazo.
+              </p>
+              <p class="about__details-description">
+                <i class="ri-checkbox-fill about__details-icon"></i>
+                Damos-lhe guias para proteger e cuidar de suas plantas.
+              </p>
+              <p class="about__details-description">
+                <i class="ri-checkbox-fill about__details-icon"></i>
+                Nós sempre visitamos para um check-up após a venda.
+              </p>
+              <p class="about__details-description">
+                <i class="ri-checkbox-fill about__details-icon"></i>
+                Em caso de reembolso você tem 100% do seu dinheiro de volta
+                garantido.
+              </p>
+            </div>
+
+            <a href="#products" class="button--link button--flex">
+              Compre agora <i class="ri-arrow-right-down-line button__icon"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Produtos -->
+      <section class="product section container" id="products">
+        <h2 class="section__title-center">
+          Confira nossos <br />
+          produtos
+        </h2>
+
+        <p class="product__description">
+          Aqui estão algumas plantas selecionadas de nosso showroom, todas em
+          excelente estado e com longa vida útil. Compre e aproveite a melhor
+          qualidade.
+        </p>
+
+        <div class="product__container grid">
+          <article class="product__card">
+            <div class="product__circle"></div>
+
+            <img src="assets/img/product1.png" alt="" class="product__img" />
+
+            <h3 class="product__title">Cacti</h3>
+            <span class="product__price">R$19,90</span>
+
+            <button class="button--flex product__button">
+              <i class="ri-shopping-bag-line"></i>
+            </button>
+          </article>
+
+          <article class="product__card">
+            <div class="product__circle"></div>
+
+            <img src="assets/img/product2.png" alt="" class="product__img" />
+
+            <h3 class="product__title">Cactus</h3>
+            <span class="product__price">R$11,90</span>
+
+            <button class="button--flex product__button">
+              <i class="ri-shopping-bag-line"></i>
+            </button>
+          </article>
+
+          <article class="product__card">
+            <div class="product__circle"></div>
+
+            <img src="assets/img/product3.png" alt="" class="product__img" />
+
+            <h3 class="product__title">Aloe Vera</h3>
+            <span class="product__price">R$7,90</span>
+
+            <button class="button--flex product__button">
+              <i class="ri-shopping-bag-line"></i>
+            </button>
+          </article>
+
+          <article class="product__card">
+            <div class="product__circle"></div>
+
+            <img src="assets/img/product4.png" alt="" class="product__img" />
+
+            <h3 class="product__title">Suculenta</h3>
+            <span class="product__price">R$5,90</span>
+
+            <button class="button--flex product__button">
+              <i class="ri-shopping-bag-line"></i>
+            </button>
+          </article>
+
+          <article class="product__card">
+            <div class="product__circle"></div>
+
+            <img src="assets/img/product5.png" alt="" class="product__img" />
+
+            <h3 class="product__title">Suculento</h3>
+            <span class="product__price">R$10,90</span>
+
+            <button class="button--flex product__button">
+              <i class="ri-shopping-bag-line"></i>
+            </button>
+          </article>
+
+          <article class="product__card">
+            <div class="product__circle"></div>
+
+            <img src="assets/img/product6.png" alt="" class="product__img" />
+
+            <h3 class="product__title">Planta verde</h3>
+            <span class="product__price">R$8,90</span>
+
+            <button class="button--flex product__button">
+              <i class="ri-shopping-bag-line"></i>
+            </button>
+          </article>
+        </div>
+      </section>
+
+      <!-- FAQ -->
+      <section class="questions section" id="faqs">
+        <h2 class="section__title-center questions__title container">FAQs</h2>
+
+        <div class="questions__container container grid">
+          <div class="questions__group">
+            <div class="questions__item">
+              <header class="questions__header">
+                <i class="ri-add-line questions__icon"></i>
+                <h3 class="questions__item-title">
+                  Minhas flores estão caindo ou morrendo?
+                </h3>
+              </header>
+
+              <div class="questions__content">
+                <p class="questions__description">
+                  As plantas são uma maneira fácil de adicionar energia de cor e
+                  transformar sua espaço, mas qual planeta é para você.
+                  Escolhendo a planta certa.
+                </p>
+              </div>
+            </div>
+
+            <div class="questions__item">
+              <header class="questions__header">
+                <i class="ri-add-line questions__icon"></i>
+                <h3 class="questions__item-title">
+                  O que faz com que as folhas fiquem pálidas?
+                </h3>
+              </header>
+
+              <div class="questions__content">
+                <p class="questions__description">
+                  As plantas são uma maneira fácil de adicionar energia de cor e
+                  transformar sua espaço, mas qual planeta é para você.
+                  Escolhendo a planta certa.
+                </p>
+              </div>
+            </div>
+
+            <div class="questions__item">
+              <header class="questions__header">
+                <i class="ri-add-line questions__icon"></i>
+                <h3 class="questions__item-title">
+                  O que causa folhas crocantes marrons?
+                </h3>
+              </header>
+
+              <div class="questions__content">
+                <p class="questions__description">
+                  As plantas são uma maneira fácil de adicionar energia de cor e
+                  transformar sua espaço, mas qual planeta é para você.
+                  Escolhendo a planta certa.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="questions__group">
+            <div class="questions__item">
+              <header class="questions__header">
+                <i class="ri-add-line questions__icon"></i>
+                <h3 class="questions__item-title">Como escolho uma planta?</h3>
+              </header>
+
+              <div class="questions__content">
+                <p class="questions__description">
+                  As plantas são uma maneira fácil de adicionar energia de cor e
+                  transformar sua espaço, mas qual planeta é para você.
+                  Escolhendo a planta certa.
+                </p>
+              </div>
+            </div>
+
+            <div class="questions__item">
+              <header class="questions__header">
+                <i class="ri-add-line questions__icon"></i>
+                <h3 class="questions__item-title">
+                  Como faço para trocar os potes?
+                </h3>
+              </header>
+
+              <div class="questions__content">
+                <p class="questions__description">
+                  As plantas são uma maneira fácil de adicionar energia de cor e
+                  transformar sua espaço, mas qual planeta é para você.
+                  Escolhendo a planta certa.
+                </p>
+              </div>
+            </div>
+
+            <div class="questions__item">
+              <header class="questions__header">
+                <i class="ri-add-line questions__icon"></i>
+                <h3 class="questions__item-title">
+                  Por que os mosquitos estão voando em volta da minha planta?
+                </h3>
+              </header>
+
+              <div class="questions__content">
+                <p class="questions__description">
+                  As plantas são uma maneira fácil de adicionar energia de cor e
+                  transformar sua espaço, mas qual planeta é para você.
+                  Escolhendo a planta certa.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contato -->
+      <section class="contact section container" id="contact">
+        <div class="contact__container grid">
+          <div class="contact__box">
+            <div class="contact__data">
+              <div class="contact__information">
+                <h3 class="contact__subtitle">Mande um zap, vey</h3>
+                <span class="contact__description">
+                  <i class="ri-phone-line contact__icon"></i>
+                  (82) 9 8216-8271
+                </span>
+              </div>
+
+              <div class="contact__information">
+                <h3 class="contact__subtitle">Envie uma mensagem por e-mail</h3>
+                <span class="contact__description">
+                  <i class="ri-mail-line contact__icon"></i>
+                  jcsn.jdev@gmail.com
+                </span>
+              </div>
+
+              <div class="contact__information">
+                <h3 class="contact__subtitle">Fale comigo no insta</h3>
+                <span class="contact__description">
+                  <i class="ri-instagram-line contact__icon"></i>
+                  <a href="https://www.instagram.com/jcsnjdev">@jcsnjdev</a>
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <form action="" class="contact__form">
+            <div class="contact__inputs">
+              <div class="contact__content">
+                <input type="email" placeholder=" " class="contact__input" />
+                <label for="" class="contact__label">E-mail</label>
+              </div>
+
+              <div class="contact__content">
+                <input type="text" placeholder=" " class="contact__input" />
+                <label for="" class="contact__label">Assunto</label>
+              </div>
+
+              <div class="contact__content contact__area">
+                <textarea
+                  name="message"
+                  placeholder=" "
+                  class="contact__input"
+                ></textarea>
+                <label for="" class="contact__label">Mensagem</label>
+              </div>
+            </div>
+
+            <button class="button button--flex">
+              Enviar
+              <i class="ri-arrow-right-up-line button__icon"></i>
+            </button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer section">
+      <p class="footer__copy">
+        &copy; 2023 <a href="https://www.instagram.com/jcsnjdev">@jcsnjdev</a>.
+        Todos os direitos reservados.
+      </p>
+    </footer>
+
+    <!-- Scroll up -->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="ri-arrow-up-fill scrollup__icon"></i>
+    </a>
+
+    <!-- Scroll reveal -->
+    <script src="assets/js/scrollreveal.min.js"></script>
+
+    <!-- Main Js -->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
